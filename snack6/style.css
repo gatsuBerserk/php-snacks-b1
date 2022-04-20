@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 6rem;
+}
+div.green{
+    background-color: green; 
+}
+
+div.silver{
+    background-color: silver;
+} 
+
+div.green, 
+div.silver{
+    padding: 3rem;
+}
