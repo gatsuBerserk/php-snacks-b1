@@ -24,7 +24,9 @@
 <body>
     <pre>
         <?php
-            var_dump($randomInteger); 
+            for($i = 0; $i < count($randomInteger); $i++){
+                echo "<pre>". $randomInteger[$i] . "</pre>";
+            }
         ?>
     </pre>
 </body>
